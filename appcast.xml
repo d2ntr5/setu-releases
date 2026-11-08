@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.1</title>
-      <pubDate>Sun, 08 Nov 2026 19:15:02 GMT</pubDate>
-      <sparkle:version>6</sparkle:version>
-      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <title>Setu 0.1.2</title>
+      <pubDate>Sun, 08 Nov 2026 19:42:28 GMT</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="6" data-v="0.1.1"><h3>v0.1.1<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<section data-sparkle-version="8" data-v="0.1.2"><h3>v0.1.2<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<ul>
+<li>설정 › NAS 의 「목록 받기」 · 「연결 시험」이 맞는 계정으로도 「비밀번호가 맞지 않습니다」 · 「로그인하지 못했습니다」로 실패하던 문제를 고침 (사용자 이름 · 비밀번호가 NAS 에 전달되지 않았음. 실제 연결에는 영향 없었음)</li>
+</ul></section>
+<section data-sparkle-version="6" data-v="0.1.1"><h3>v0.1.1<small>2026-11-09</small></h3>
 <ul>
 <li>팝업의 톱니 · 「NAS 추가…」 · 「설정 열기」를 눌러도 설정 창이 열리지 않던 문제를 고침 (NAS 를 아직 넣지 않은 처음 설치에서 설정 창이 너비 0 으로 만들어져 보이지 않았음)</li>
 </ul></section>
@@ -31,7 +35,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.1.zip" length="2239821" type="application/octet-stream" sparkle:edSignature="/wIB1aLWybPw8Fzi4BPI9m06weDLVgYJXDh4Awd4tvigwR6ptVl0r0aYqoDZcoKElGN+yqzP/O+FnJHZVnRIDQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.2.zip" length="2241309" type="application/octet-stream" sparkle:edSignature="NzwL9tVfqL4lp1uOwb50rs8AKSwwXS5pVmzgBwuahLOPGixMgjqTH+YG3dW+Tohhzb/M0af2QXIuKrbyS6xzAA=="/>
     </item>
   </channel>
 </rss>
