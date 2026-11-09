@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.3</title>
-      <pubDate>Mon, 09 Nov 2026 13:09:36 GMT</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+      <title>Setu 0.1.4</title>
+      <pubDate>Mon, 09 Nov 2026 14:03:53 GMT</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,14 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="14" data-v="0.1.3"><h3>v0.1.3<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<section data-sparkle-version="18" data-v="0.1.4"><h3>v0.1.4<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<ul>
+<li>글씨 크기: 설정 › 일반 › 화면 › 「글씨 크기」(작게 · 보통 · 크게 · 아주 크게)와 ⌘= · ⌘- · ⌘0. 팝업 · 설정 창의 글씨와 창 · 단추 크기가 함께 바뀜</li>
+<li>밝은 화면 색을 다른 맥 앱과 같은 시스템 색으로(흰 상자 + 가는 선), 글씨 크기 · 굵기를 자리별 공통 표로 맞춤(가장 작은 글씨 11pt)</li>
+<li>머리 색 견본을 단순하게(눈 그림 없이, 고른 것만 ✓)</li>
+<li>저장된 값 초기화의 「화면」에 글씨 크기를 포함</li>
+</ul></section>
+<section data-sparkle-version="14" data-v="0.1.3"><h3>v0.1.3<small>2026-11-09</small></h3>
 <ul>
 <li>팝업 톱니 · ⌘, · 메뉴 › 설정… 으로 설정 창을 열면 지금 보고 있는 데스크탑이 아니라 처음 연 데스크탑(또는 다른 모니터)에 열리던 문제를 고침. 다른 데스크탑에 열려 있던 창도 지금 데스크탑으로 옮겨 옴</li>
 </ul></section>
@@ -39,7 +46,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.3.zip" length="2247168" type="application/octet-stream" sparkle:edSignature="yKlzaBAOamnsXOqjNQ0KdBvNDntgW1Dtk3W3OqHWggy8HnDELkVrO5MZLEVYBzlBCB0YJf00TrP7u/rhHjjBBA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.4.zip" length="2282000" type="application/octet-stream" sparkle:edSignature="CrMJq0AjqM1tTldOn2WVHlQ6IlTaEpkRHAsS7fzsBUUmH3EA7rvkowxR00O8CEU8lJDYQ9Jd11bTUkpidhHsCA=="/>
     </item>
   </channel>
 </rss>
