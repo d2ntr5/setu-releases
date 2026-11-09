@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.2</title>
-      <pubDate>Sun, 08 Nov 2026 19:42:28 GMT</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <title>Setu 0.1.3</title>
+      <pubDate>Mon, 09 Nov 2026 13:09:36 GMT</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="8" data-v="0.1.2"><h3>v0.1.2<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<section data-sparkle-version="14" data-v="0.1.3"><h3>v0.1.3<span class="tag">설치할 버전</span><small>2026-11-09</small></h3>
+<ul>
+<li>팝업 톱니 · ⌘, · 메뉴 › 설정… 으로 설정 창을 열면 지금 보고 있는 데스크탑이 아니라 처음 연 데스크탑(또는 다른 모니터)에 열리던 문제를 고침. 다른 데스크탑에 열려 있던 창도 지금 데스크탑으로 옮겨 옴</li>
+</ul></section>
+<section data-sparkle-version="8" data-v="0.1.2"><h3>v0.1.2<small>2026-11-09</small></h3>
 <ul>
 <li>설정 › NAS 의 「목록 받기」 · 「연결 시험」이 맞는 계정으로도 「비밀번호가 맞지 않습니다」 · 「로그인하지 못했습니다」로 실패하던 문제를 고침 (사용자 이름 · 비밀번호가 NAS 에 전달되지 않았음. 실제 연결에는 영향 없었음)</li>
 </ul></section>
@@ -35,7 +39,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.2.zip" length="2241309" type="application/octet-stream" sparkle:edSignature="NzwL9tVfqL4lp1uOwb50rs8AKSwwXS5pVmzgBwuahLOPGixMgjqTH+YG3dW+Tohhzb/M0af2QXIuKrbyS6xzAA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.3.zip" length="2247168" type="application/octet-stream" sparkle:edSignature="yKlzaBAOamnsXOqjNQ0KdBvNDntgW1Dtk3W3OqHWggy8HnDELkVrO5MZLEVYBzlBCB0YJf00TrP7u/rhHjjBBA=="/>
     </item>
   </channel>
 </rss>
