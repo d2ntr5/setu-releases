@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.6</title>
-      <pubDate>Mon, 09 Nov 2026 15:09:39 GMT</pubDate>
-      <sparkle:version>22</sparkle:version>
-      <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+      <title>Setu 0.1.7</title>
+      <pubDate>Thu, 12 Nov 2026 00:03:17 GMT</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="22" data-v="0.1.6"><h3>v0.1.6<span class="tag">설치할 버전</span><small>2026-11-10</small></h3>
+<section data-sparkle-version="36" data-v="0.1.7"><h3>v0.1.7<span class="tag">설치할 버전</span><small>2026-11-12</small></h3>
+<ul>
+<li>설정 › 업데이트의 새 버전 초록 상자에서 「나중에」 · 「업데이트…」 단추를 제목 줄 「● 새 버전 …가 있습니다」 오른쪽 끝으로 옮김(바뀐 점 길이와 상관없이 같은 자리, 아래 단추들의 오른쪽 줄에 맞춤)</li>
+</ul></section>
+<section data-sparkle-version="22" data-v="0.1.6"><h3>v0.1.6<small>2026-11-10</small></h3>
 <ul>
 <li>설정 창을 연 채 글씨 크기를 바꾸면 창 높이가 따라 늘지 않아 아래 줄이 「바꾼 값은 바로 저장됩니다 · 완료」 뒤로 잘리던 문제를 고침</li>
 <li>「글씨 크기」 단추를 직접 그려 글씨가 단계를 따라 커지고, 어두운 화면에서도 고른 칸이 또렷하게</li>
@@ -55,7 +59,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.6.zip" length="2294202" type="application/octet-stream" sparkle:edSignature="d4L8WbFHUYKL1UidU2Dmp2GrmgD5/zngpdcjHQlPtfee8seoZbtpal2YvIdIHhkXvKJXXs5lz/5myK7CDJtDDA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.7.zip" length="2304028" type="application/octet-stream" sparkle:edSignature="xXWWjXPQFn4aLtcJy8swADtBsasCLUxVVz6rcf7b0KyBEdGTdOy0doR0qsCddJujJ3bSwjLf5uzfrU63lJnjBQ=="/>
     </item>
   </channel>
 </rss>
