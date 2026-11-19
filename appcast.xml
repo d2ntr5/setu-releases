@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.10</title>
-      <pubDate>Thu, 19 Nov 2026 15:23:54 GMT</pubDate>
-      <sparkle:version>54</sparkle:version>
-      <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+      <title>Setu 0.1.11</title>
+      <pubDate>Thu, 19 Nov 2026 15:38:47 GMT</pubDate>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="54" data-v="0.1.10"><h3>v0.1.10<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<section data-sparkle-version="56" data-v="0.1.11"><h3>v0.1.11<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<ul>
+<li>팝업 머리의 해·달 단추를 눌러도 이미 열린 팝업의 화면이 라이트/다크로 바뀌지 않던 문제를 고침(값은 저장됐지만 팝업이 그대로라 두 번째부터는 같은 쪽으로만 바뀌었음). 이제 누르는 즉시 팝업 · 설정 창이 함께 바뀜</li>
+</ul></section>
+<section data-sparkle-version="54" data-v="0.1.10"><h3>v0.1.10<small>2026-11-20</small></h3>
 <ul>
 <li>다크 모드에서 주 단추(「지금 다시 연결」 · 「완료」 · 「저장」 · 「업데이트」)와 켠 스위치가 어두운 바탕에 묻혀 잘 안 보이던 것을 고침. 다크에서만 이 강조색을 머리 색과 밝은 강조 글자의 중간색(남색이면 #7584B5)으로 씀. 팝업 · 설정 머리 띠 색은 그대로(앱 공통 표준)</li>
 </ul></section>
@@ -77,7 +81,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.10.zip" length="2364134" type="application/octet-stream" sparkle:edSignature="bEmH+CdGr27f5zNy/KNr+fIpecbW8YLqVlF8Gj2xK07Ql3jHy0syuFAx+X0wKxwjfE8sjH4GtL1pEDhPQctoCg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.11.zip" length="2365854" type="application/octet-stream" sparkle:edSignature="IvVABfEhhlgCqkvG8k3XCVbKE8v6+OdzsxZDOM06njDWKSzEs/uAI/DmFQlNX0CvWXKXFC+mtBboUiWlMPRpAA=="/>
     </item>
   </channel>
 </rss>
