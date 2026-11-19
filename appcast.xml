@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.8</title>
-      <pubDate>Thu, 19 Nov 2026 13:05:07 GMT</pubDate>
-      <sparkle:version>44</sparkle:version>
-      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <title>Setu 0.1.9</title>
+      <pubDate>Thu, 19 Nov 2026 14:41:54 GMT</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,13 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="44" data-v="0.1.8"><h3>v0.1.8<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="48" data-v="0.1.9"><h3>v0.1.9<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>화면 모드(시스템 · 라이트 · 다크)를 새로 만듦: 설정 › 일반 › 화면 › 「화면 모드」. 처음 값은 시스템(지금처럼 macOS 를 따라감)</li>
+<li>팝업 머리 오른쪽(이 맥 이름 왼쪽)에 해·달 단추: 지금 라이트로 보이면 달, 다크면 해. 누르면 라이트 ↔ 다크로 바로 바뀌고 다시 켜도 남음(「시스템」은 설정에서만, 앱 공통 표준)</li>
+<li>저장된 값 초기화 › 화면에 화면 모드 포함(시스템으로)</li>
+</ul></section>
+<section data-sparkle-version="44" data-v="0.1.8"><h3>v0.1.8<small>2026-11-19</small></h3>
 <ul>
 <li>잠자기 뒤 다시 연결할 때마다 공유가 <code>/Volumes/&lt;공유&gt;-1</code>, <code>-2</code> … 처럼 번호 붙은 자리에 붙던 문제를 고침. 지난 연결이 남긴 빈 자리 폴더(<code>/Volumes/&lt;공유&gt;</code>)가 있으면 그 폴더에 바로 연결해 원래 이름을 지킴(자리를 고정해 쓰는 앱 — 예: Pata — 이 저장하지 못하던 원인)</li>
 <li>이미 번호 붙은 자리에 붙어 있으면 원래 자리로 옮김(쓰는 중이면 그대로 두고 다음 확인 · 「지금 다시 연결」 때 다시). 옮기지 못하면 「연결됨」 대신 주황 「위치가 바뀜 — /Volumes/&lt;공유&gt;-N (원래 /Volumes/&lt;공유&gt;)」</li>
@@ -67,7 +73,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.8.zip" length="2337611" type="application/octet-stream" sparkle:edSignature="ZZK8noJOrf6zouFuhZDLZ8KA+JqKJxkX1ktNm6eJBJhxzQTtnAd8rzOuL36/e4vu1W+pSBiNNPnXGFIq0mTyAw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.9.zip" length="2364687" type="application/octet-stream" sparkle:edSignature="8wtWQjq8uaRusPlR88zMeXqUozRIFiHoXcUSz4S0uZFitDyRttASAMuEFH2Yb54vYYlgNXlhjL/T0+46HIC/AQ=="/>
     </item>
   </channel>
 </rss>
