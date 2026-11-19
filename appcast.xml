@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.7</title>
-      <pubDate>Thu, 12 Nov 2026 00:03:17 GMT</pubDate>
-      <sparkle:version>36</sparkle:version>
-      <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+      <title>Setu 0.1.8</title>
+      <pubDate>Thu, 19 Nov 2026 13:05:07 GMT</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,15 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="36" data-v="0.1.7"><h3>v0.1.7<span class="tag">설치할 버전</span><small>2026-11-12</small></h3>
+<section data-sparkle-version="44" data-v="0.1.8"><h3>v0.1.8<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>잠자기 뒤 다시 연결할 때마다 공유가 <code>/Volumes/&lt;공유&gt;-1</code>, <code>-2</code> … 처럼 번호 붙은 자리에 붙던 문제를 고침. 지난 연결이 남긴 빈 자리 폴더(<code>/Volumes/&lt;공유&gt;</code>)가 있으면 그 폴더에 바로 연결해 원래 이름을 지킴(자리를 고정해 쓰는 앱 — 예: Pata — 이 저장하지 못하던 원인)</li>
+<li>이미 번호 붙은 자리에 붙어 있으면 원래 자리로 옮김(쓰는 중이면 그대로 두고 다음 확인 · 「지금 다시 연결」 때 다시). 옮기지 못하면 「연결됨」 대신 주황 「위치가 바뀜 — /Volumes/&lt;공유&gt;-N (원래 /Volumes/&lt;공유&gt;)」</li>
+<li>NAS 주소에 <code>:포트</code>를 붙이면(예: <code>10.10.20.7:4450</code>) 그 포트로 확인 · 연결</li>
+<li>설정 › 업데이트의 새 버전 초록 상자 주 단추 이름을 「업데이트…」에서 「업데이트」로(앱 공통 표준)</li>
+<li>같은 탭 「마지막 확인」 줄 단추도 새 버전이 있으면 「업데이트」(없으면 그대로 「업데이트 확인…」)</li>
+</ul></section>
+<section data-sparkle-version="36" data-v="0.1.7"><h3>v0.1.7<small>2026-11-12</small></h3>
 <ul>
 <li>설정 › 업데이트의 새 버전 초록 상자에서 「나중에」 · 「업데이트…」 단추를 제목 줄 「● 새 버전 …가 있습니다」 오른쪽 끝으로 옮김(바뀐 점 길이와 상관없이 같은 자리, 아래 단추들의 오른쪽 줄에 맞춤)</li>
 </ul></section>
@@ -59,7 +67,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.7.zip" length="2304028" type="application/octet-stream" sparkle:edSignature="xXWWjXPQFn4aLtcJy8swADtBsasCLUxVVz6rcf7b0KyBEdGTdOy0doR0qsCddJujJ3bSwjLf5uzfrU63lJnjBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.8.zip" length="2337611" type="application/octet-stream" sparkle:edSignature="ZZK8noJOrf6zouFuhZDLZ8KA+JqKJxkX1ktNm6eJBJhxzQTtnAd8rzOuL36/e4vu1W+pSBiNNPnXGFIq0mTyAw=="/>
     </item>
   </channel>
 </rss>
