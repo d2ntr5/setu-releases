@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.16</title>
-      <pubDate>Fri, 20 Nov 2026 13:50:37 GMT</pubDate>
-      <sparkle:version>80</sparkle:version>
-      <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
+      <title>Setu 0.1.17</title>
+      <pubDate>Fri, 20 Nov 2026 16:49:10 GMT</pubDate>
+      <sparkle:version>82</sparkle:version>
+      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,13 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="80" data-v="0.1.16"><h3>v0.1.16<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<section data-sparkle-version="82" data-v="0.1.17"><h3>v0.1.17<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<ul>
+<li>NAS 가 응답하지 않는 연결 요청이 쌓이면 Setu 점검이 통째로 멈춰, NAS 가 돌아와도 다시 연결하지 않고 상태도 바뀌지 않던 문제를 고침. 같은 NAS 의 지난 요청이 끝나지 않았으면 새 요청을 쌓지 않고 「지난 연결 요청이 macOS 안에서 끝나지 않았습니다」로 표시</li>
+<li>NAS 재시동 · 업데이트로 SMB 가 연결을 거부할 때 「집 밖」이 아니라 「NAS가 연결을 받지 않습니다」(빨강)로 표시</li>
+<li>연결돼 있던 NAS 가 Finder 꺼내기 · NAS 재시동으로 끊기면 「연결이 끊겨 있음 → 다시 연결」을 기록하고, 다시 붙으면 그것도 기록</li>
+</ul></section>
+<section data-sparkle-version="80" data-v="0.1.16"><h3>v0.1.16<small>2026-11-20</small></h3>
 <ul>
 <li>잠자기 · 랜 빠짐 뒤 NAS 에 계속 「NAS가 응답하지 않습니다 (오류 60)」로 연결하지 못하고 맥을 재시동해야 풀리던 문제에 대비: 네트워크 오류 · 시간 초과로 실패하면 다음 시도부터는 macOS 에 남은 옛 SMB 연결을 쓰지 않고 새 연결로 붙음</li>
 <li>Setu 의 40초 시간 제한에 걸린 실패는 「40초 안에 연결이 끝나지 않았습니다」로 따로 표시(NAS 가 준 오류 60 과 구분)</li>
@@ -104,7 +110,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.16.zip" length="2379787" type="application/octet-stream" sparkle:edSignature="tkRv1hWEy4uK185Qht7b3qsirQym3ku+stOKlG1Ad3me/UgX7GY4ofAatcjRsf3GpK1S5XJfoTdBkTdc2R7cBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.17.zip" length="2392415" type="application/octet-stream" sparkle:edSignature="lNJgXOudygfWFeyMuLl2LeVJU22bmxUR1YurHwT3ijqTujyv1I9mSoM7gTUykDi8C0CSkbUPEtcUnQ/4WaMNAQ=="/>
     </item>
   </channel>
 </rss>
