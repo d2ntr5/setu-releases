@@ -3,10 +3,10 @@
   <channel>
     <title>Setu</title>
     <item>
-      <title>Setu 0.1.15</title>
-      <pubDate>Fri, 20 Nov 2026 13:25:52 GMT</pubDate>
-      <sparkle:version>78</sparkle:version>
-      <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+      <title>Setu 0.1.16</title>
+      <pubDate>Fri, 20 Nov 2026 13:50:37 GMT</pubDate>
+      <sparkle:version>80</sparkle:version>
+      <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,13 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="78" data-v="0.1.15"><h3>v0.1.15<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<section data-sparkle-version="80" data-v="0.1.16"><h3>v0.1.16<span class="tag">설치할 버전</span><small>2026-11-20</small></h3>
+<ul>
+<li>잠자기 · 랜 빠짐 뒤 NAS 에 계속 「NAS가 응답하지 않습니다 (오류 60)」로 연결하지 못하고 맥을 재시동해야 풀리던 문제에 대비: 네트워크 오류 · 시간 초과로 실패하면 다음 시도부터는 macOS 에 남은 옛 SMB 연결을 쓰지 않고 새 연결로 붙음</li>
+<li>Setu 의 40초 시간 제한에 걸린 실패는 「40초 안에 연결이 끝나지 않았습니다」로 따로 표시(NAS 가 준 오류 60 과 구분)</li>
+<li>최근 기록의 실패 줄에 공유 이름을 함께 적음(같은 이름의 NAS 가 여럿일 때 구분)</li>
+</ul></section>
+<section data-sparkle-version="78" data-v="0.1.15"><h3>v0.1.15<small>2026-11-20</small></h3>
 <ul>
 <li>「최신 버전입니다」 같은 확인 창이 다른 데스크탑이나 다른 창 뒤에 숨으면 Setu 전체가 클릭을 받지 않고 「툭」 소리만 나던 먹통을 고침. 이제 메뉴 막대 아이콘 · 톱니 · ⌘, 를 누르면 숨은 확인 창을 지금 화면 앞으로 데려옴</li>
 <li>확인 창이 떠 있는 동안에도 NAS 점검 · 업데이트 확인이 멈추지 않게 함</li>
@@ -98,7 +104,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>설정 › 알림: Prahari 가 읽는 상태 파일(~/Library/Application Support/Setu/status.json)</li>
 <li>앱 안 업데이트 · 정보 · 설정 화면은 다른 맥 앱과 같은 모양</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.15.zip" length="2371273" type="application/octet-stream" sparkle:edSignature="clv4zug/WgTAhQU1+c/ZDutVOP/SgL2UjhfWwQB8lS/EnL0WxoTIOQL1ZXhwJJzTAUNhTJ9C+PVNgqL8tu7fCg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/setu-releases/main/releases/Setu-0.1.16.zip" length="2379787" type="application/octet-stream" sparkle:edSignature="tkRv1hWEy4uK185Qht7b3qsirQym3ku+stOKlG1Ad3me/UgX7GY4ofAatcjRsf3GpK1S5XJfoTdBkTdc2R7cBw=="/>
     </item>
   </channel>
 </rss>
